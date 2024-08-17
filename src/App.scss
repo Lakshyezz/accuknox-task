@@ -1,0 +1,134 @@
+#root {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+.adding-modal{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  background-color: white;
+  border-radius: 12px;
+  .heading{
+    background-color: darkblue;
+    height: 60px;
+    color: rgb(244, 242, 242);
+    display: flex;
+    align-items: center;
+    padding: 4px 20px;
+    margin-bottom: 20px;
+  }
+  .category-tags{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 4px 20px;
+
+    .tags{
+      border-bottom: 2px solid rgb(167, 166, 166);
+      cursor: pointer;
+    }
+  }
+  .select-section{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 20px;
+    .widgets{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 20px;
+      .widget{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .svg-wrapper{
+          background-color: rgb(238, 185, 185);
+          padding: 4px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .add-feature{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    input{
+      height: 36px;
+      width: 200px;
+      border-radius: 4px;
+      border: 1px solid grey;
+      padding-left: 12px;
+    }
+    .addBtn{
+      display: flex;
+      border-radius: 4px;
+      align-items: center;
+      justify-content: center;
+      height: 36px;
+      width: 60px;
+      color: darkblue;
+      border: 1.5px solid darkblue;
+      cursor: pointer;
+    }
+  }
+  .buttons{
+    background-color: rgb(203, 203, 203);
+    align-self: flex-end;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+ 
+}
+.wrapper{
+  /* background-color: orange; */
+
+
+  .categories{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 8px 10px;
+    // background-color: aqua;
+
+    .category{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      h4{
+        font-size: 18px;  
+      }
+      .widget-wrapper{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 10px 0px;
+        .widget{
+          width:300px;
+          height:250px;
+          border: .5px solid darkgrey;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          background-color: white;
+          }
+
+          
+
+        }
+    }
+
+  }
+}
