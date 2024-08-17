@@ -12,6 +12,6 @@ Currently, two official plugins are available:
 
 STEPS TO RUN
 
-npm i
-npm run dev
-port: http://localhost:5173/
+- npm i
+- npm run dev
+- port: http://localhost:5173/
